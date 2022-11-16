@@ -158,6 +158,3 @@ void yolov5::nms(std::vector<Yolo::Detection>& res, float* output, float conf_th
 }
 
 
-
-//https://blog.csdn.net/qq_52859223/article/details/124362671
-//https://blog.csdn.net/weixin_41552975/article/details/115340333?spm=1001.2014.3001.5501
