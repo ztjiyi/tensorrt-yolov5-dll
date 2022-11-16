@@ -157,19 +157,7 @@ void yolov5::nms(std::vector<Yolo::Detection>& res, float* output, float conf_th
     }
 }
 
-Connect::Connect()
-{}
-Connect::~Connect()
-{}
-yolov5fz* Connect::Create_YOLOV5_Object()
-{
-    return new yolov5;      //注意此处
-}
-void Connect::Delete_YOLOV5_Object(yolov5fz* _bp)
-{
-    if (_bp)
-        delete _bp;
-}
+
 
 //https://blog.csdn.net/qq_52859223/article/details/124362671
 //https://blog.csdn.net/weixin_41552975/article/details/115340333?spm=1001.2014.3001.5501

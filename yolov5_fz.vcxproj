@@ -162,6 +162,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="tensor\yololayer.h" />
     <ClInclude Include="yolov5.h" />
+    <ClInclude Include="yolov5_dy.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
@@ -172,6 +173,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="yolov5.cpp" />
+    <ClCompile Include="yolov5_dy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CudaCompile Include="tensor\preprocess.cu" />

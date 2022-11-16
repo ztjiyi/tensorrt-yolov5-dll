@@ -27,6 +27,9 @@
     <ClInclude Include="tensor\yololayer.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="yolov5_dy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -36,6 +39,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="yolov5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="yolov5_dy.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

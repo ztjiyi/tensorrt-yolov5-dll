@@ -11,17 +11,6 @@ using namespace cv;
 #define MAX_IMAGE_INPUT_SIZE_THRESH 3000 * 3000 // ensure it exceed the maximum size in the input images !
 
 
-class CLASS_DECLSPEC Connect
-{
-public:
-	Connect();
-	~Connect();
-
-public:
-	yolov5fz* Create_YOLOV5_Object();
-	void Delete_YOLOV5_Object(yolov5fz* _bp);
-};
-
 class yolov5 :public yolov5fz
 {
 public:
